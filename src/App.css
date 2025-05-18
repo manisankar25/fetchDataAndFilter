@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.singleBox {
+  border: 1px solid black;
+  margin: 10px;
+  background-color: azure;
+}
+.outerDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
