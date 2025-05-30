@@ -4,6 +4,7 @@ import SearchFun from './SearchFun';
 import DataGridContainer from './DataGridContainer';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import Parent from './Parent';
 
 function App() {
 
@@ -26,8 +27,12 @@ function App() {
   console.log('fff',data)
   return (
     <div >
-      <SearchFun searchInput={searchInput} handleSearchInput={handleSearchInput}></SearchFun>
-      <DataGridContainer data={data}></DataGridContainer>
+      {/* <SearchFun searchInput={searchInput} handleSearchInput={handleSearchInput}></SearchFun>
+      <DataGridContainer data={data}></DataGridContainer> */}
+
+      <div>test dev1</div>
+      <div>test dev2</div>
+      <Parent></Parent>
     </div>
   );
 }
